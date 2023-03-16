@@ -14,6 +14,8 @@ html, body {
 	height: 100vh;
     overflow: hidden;
 }
+
+
 main{
     display: block;
     
@@ -106,25 +108,66 @@ footer{
     
 }
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:394px) and (min-width:375px) {
+
+main{
+    margin-left: 8%;
+    
+}
+}
+
+@media screen and (max-width:913px) and (min-width:767px) {
+
+main{
+    margin-left: 28%;
+    
+}
+h1{
+    font-size: 50px;
+}
+
+
+}
+ @media screen and (max-width:767px) and (min-width:488px) {
+    main{
+        margin-left: 20%;
+    }
+    
+ }
+ @media screen and (max-width:1281px) and (min-width:1023px) {
 
 main{
     margin-left: 35%;
     
 }
 
-.img1{
-    width: 400px;
+h1{
+    font-size: 50px;
+}
 }
 
-}
- @media screen and (max-width:767px) and (min-width:488px) {
-    main{
-        margin-left: 30%;
-    }
+@media screen and  (min-width:1283px) {
+
+main{
+    margin-left: 38%;
     
- }
+}
 
+h1{
+    font-size: 65px;
+}
+}
+@media screen and (max-width:1024px) and (min-width:912px) {
+
+main{
+    margin-left: 33%;
+    
+}
+
+h1{
+    font-size: 55px;
+}
+}   
     
 
 </style>
@@ -143,12 +186,13 @@ main{
             <a href="https://www.tourisme-tarn.com/patrimoine-culturel/musee-bajen-vega/"><img class="img3" src="cercle-orange.svg" alt=""></a> 
         </div>
     </main>
+
     <footer>
         <div id="piedpage">
             <a href="plan-fr.html"><button class="btnplan" type="button" style="cursor: pointer;">Plan</button></a>
             <a href="page-transition-collection.html"><button class="btnplan" type="button" style="cursor: pointer;">Collection</button></a>
             <button class="btnplan" type="button">Visite</button>
-            <button class="btnplan" type="button">Infos</button>
+            <a href="infos.html"><button class="btnplan" type="button"style="cursor: pointer;">Infos</button></a>
             <a href="village.html"><button class="btnplan" type="button" style="cursor: pointer;">Village</button></a>
         </div>
     </footer>
