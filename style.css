@@ -132,24 +132,133 @@ h1{
 	position: absolute;
 	bottom: 0; left: 0;
 	width: 100%;
-    background-color: #957c69a2;;
-    height: 65px;
+    background-color: #ffffff;;
+    height: 85px;
+    border: #000000 solid 1px;
 }
 .btnplan {
+    
     border: 0;
     line-height: 4;
-    padding: 0 10px;
+    padding:26px 10px;
     font-size: 1rem;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
     margin-left: 2px;
     margin-top: 1px;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
+    color: #000000;
+    /*text-shadow: 1px 1px 1px #000;*/
     border-radius: 10px;
-    background-color: rgba(220, 0, 0, 0);
-    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));*/
+    /*box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);*/
     width: 17%;
+    background-image: url(https://api.iconify.design/teenyicons:floorplan-solid.svg?color=%23000000);
+    background-repeat: no-repeat;
+    background-position: 50% 13px;
+    background-size: 32px;
+    
+}
+
+.btninfo{
+    border: 0;
+    line-height: 4;
+    padding:26px 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 2px;
+    margin-top: 1px;
+    color: #000000;
+    /*text-shadow: 1px 1px 1px #000;*/
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));*/
+    /*box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);*/
+    width: 17%;
+    background-image: url(https://api.iconify.design/clarity:help-info-solid.svg?color=%23000000);
+    background-repeat: no-repeat;
+    background-position: 50% 15px;
+    background-size: 28px;
+    
+    
+}
+
+.btnvillage{
+    border: 0;
+    line-height: 4;
+    padding:26px 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 2px;
+    margin-top: 1px;
+    color: #000000;
+    /*text-shadow: 1px 1px 1px #000;*/
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));*/
+    /*box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);*/
+    width: 17%;
+    background-image: url(https://api.iconify.design/healthicons:village-outline.svg?color=%23000000);
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+    background-size: 41px;
+    
+    
+}
+
+.btncollec{
+    border: 0;
+    line-height: 4;
+    padding:26px 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 2px;
+    margin-top: 1px;
+    color: #000000;
+    /*text-shadow: 1px 1px 1px #000;*/
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));*/
+    /*box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);*/
+    width: 17%;
+    background-image: url(https://api.iconify.design/simple-icons:musescore.svg?color=%23000000);
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+    background-size: 35px;
+    
+    
+}
+
+.btnvisite{
+    border: 0;
+    line-height: 4;
+    padding:26px 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 2px;
+    margin-top: 1px;
+    color: #000000;
+    /*text-shadow: 1px 1px 1px #000;*/
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));*/
+    /*box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);*/
+    width: 17%;
+    background-image: url(https://api.iconify.design/fluent-mdl2:video-360-generic.svg?color=%23000000);
+    background-repeat: no-repeat;
+    background-position: 50% 10px;
+    background-size: 35px;
+    
+    
 }
 
 footer{
