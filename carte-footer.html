@@ -4,40 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Circuit urbain Monestiés</title>
+    <title>Document</title>
+
 </head>
-
 <style>
-
-    
-html, body {
+   html, body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
     overflow: hidden;
 }
+iframe{
+    position: relative;
+    z-index: 10;
+}
+p {
+    position: absolute;
+    margin-left: 18%;
+    margin-top:0%;
+    z-index: 20;
     
-.image {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
 }
 
-.btncircuit{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-  color: rgb(73, 180, 226);
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 10px;
-  padding: 10px 10px;
-  cursor: pointer;
+iframe a{
+   
+    font-size: 20px;
+    background-image: url(https://api.iconify.design/mingcute:aiming-line.svg);
+    background-repeat: no-repeat;
+    
+    
 }
 
+.police{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
 
 #piedpage {
 	position: absolute;
@@ -46,6 +48,7 @@ html, body {
     background-color: #ffffff;;
     height: 85px;
     border: #000000 solid 1px;
+    border-bottom: #ffffff;
 }
 .btnplan {
     
@@ -177,22 +180,26 @@ footer{
     text-align: center;
 }
 
+@media screen and (min-width:539px) and (max-width:913px){
+
+p{
+    margin-left: 37%; 
+}
+
+}
+ @media screen and (min-width:1023px) {
+
+    p{
+        margin-left: 45%; 
+    }
+    
+ }
+
+
+
 </style>
-
-<body style="overflow: hidden;">
-    <div class="image">
-        <img  src="https://www.monesties.fr/userfile/img-template-maker/logo/logo-web-monesties_5.png" style="width:350px">
-    </div>
-
-    <a href="carte-footer.html"><button class="btncircuit" type="button">Circuit urbain:<br>Carte Interactive</button></a>
-
-
-
-
-
-
-
-
+<body>
+    <iframe width="100%" height="82%" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/clone-de-monesties_886097#17/44.07103/2.09698"></iframe><p><button class="police" style="border-radius: 5%;"><a href="https://umap.openstreetmap.fr/fr/map/monesties_742837" style="text-decoration: none; color: black;"><b>ICI</b> pour vous geolocaliser</a></p></button>
 
     <footer>
         <div id="piedpage">
