@@ -15,6 +15,7 @@ html, body {
 	padding: 0;
 	height: 100vh;
     overflow: hidden;
+    background-color: black;
 }
     
 .image {
@@ -26,9 +27,13 @@ html, body {
 }
 
 .btncircuit{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /*font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
-  color: rgb(73, 180, 226);
+  /*color: rgb(73, 180, 226);*/
+ 
+  
+  background-color: #000000;
+  border-color: #000000;
   position: absolute;
   top: 48%;
   left: 50%;
@@ -36,6 +41,11 @@ html, body {
   border-radius: 10px;
   padding: 10px 10px;
   cursor: pointer;
+  
+width:300px;
+height:300px;
+border-radius:50%;
+
 }
 
 
@@ -181,11 +191,11 @@ footer{
 </style>
 
 <body style="overflow: hidden;">
-    <div class="image">
-        <img  src="https://www.monesties.fr/userfile/img-template-maker/logo/logo-web-monesties_5.png" style="width:350px">
-    </div>
 
-    <a href="carte-footer.html"><button class="btncircuit" type="button">Circuit urbain:<br>Carte Interactive</button></a>
+    <h1 style="color: darkgoldenrod; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; text-align: center; margin-top: 5%;">Carte Interactive</h1>
+    
+
+    <a href="carte-footer.html"><button class="btncircuit" type="button"><img src="https://api.iconify.design/gis:poi-map.svg?color=%23b8860b" style="width: 248px;"></button></a>
 
 
 
@@ -205,4 +215,4 @@ footer{
         </div>
     </footer>
 </body>
-</html>
+</html>  
