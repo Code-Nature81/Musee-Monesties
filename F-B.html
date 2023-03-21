@@ -10,27 +10,50 @@
 <style>
     
     html, body {
-        margin: 0;
-        padding: 5px;
-        height: 100vh;
-        overflow-x: hidden;
-    }
+	margin: 0;
+	padding: 0px;
+	height: 100vh;
+    overflow-x: hidden;
+    background-color: #000000;
+    
+}
 
-    body{
-        position: relative;
-        display: table;
-        height: 1000px;
-        background-color: #000000;
-    }
+body{
+    height: 1250px;
+}
+
+header{
+    
+    background-color: rgb(39, 39, 39);
+    height: 50px;
+
+}
+
+
+#header h1{
+    color: darkgoldenrod;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic; 
+}
+
+#header a{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
     h1{
         text-align: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-style: italic;
+        font-style: oblique;
         color: darkgoldenrod;
     }
 
     p{
         font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     #piedpage {
@@ -168,7 +191,7 @@
     
 }
 
-img{
+div img{
     margin:auto;
     display:flex;
     width: 20%;
@@ -180,18 +203,42 @@ footer{
 }
 
 @media screen and (max-width:980px) {
-    img{
+    div img{
     margin:auto;
     display:flex;
     width: 50%;
+}
+
+#header h1{
+    font-size: 25px;
+}
+    
+}
+
+@media screen and (max-width:395px) {
+    
+
+#header h1{
+    font-size: 20px;
 }
     
 }
     </style>
 <body>
-    <h1>Francisco Bajen – Artiste Peintre Œuvres</h1>
 
+    <header>
+        <div id="header">
+            <a href="page-transition-collection.html"><img src="https://api.iconify.design/cil:arrow-circle-left.svg?color=%23ffffff" style="padding-top: 10px; width: 30px; margin-left: 0px;margin-top: -18px;"></a>
+            <h1 style="margin-top: -35px;">Francisco Bajén (1912-2014)</h1>
+
+        </div>
+    </header>
+
+ <div>
+    
+ 
     <img src="francisco.jpg">
+</div>
     <p style="color: #ffffff;">Le peintre du silence
 
         Francisco Bajén était né en Espagne en 1912, à la suite de la guerre civile, il s’exile en France, il arrive dans le Tarn en 1939 puis s’installe à Saint-Juéry, et se retira par la suite à Albi. Le peintre Francisco Bajèn est mort en 2014 à l’âge de 102 ans
